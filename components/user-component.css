@@ -75,5 +75,5 @@
 }
 
 .user-component__friends:last-child {
-  padding-bottom: 60px;
+  margin-bottom: 100px;
 }
