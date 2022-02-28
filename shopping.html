@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping - Forest Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Mobile-T</span>
+        <i class="fas fa-sms"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>20:22</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-quarter"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Shopping</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-crop fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <a href="settings.html">
+          <span
+            ><i class="fas fa-cog fa-lg"></i>
+            <div class="screen-header__dot ding"></div
+          ></span>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-gift"></i>
+          <span>Present</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-shopping-basket"></i>
+          <span>Shopping</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-store"></i>
+          <span>Brands</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-truck"></i>
+          <span>Delivery</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-broadcast-tower"></i>
+          <span>Broadcast</span>
+        </div>
+      </div>
+      <div class="ad-screens">
+        <img src="images/ice-cream.png" class="ad-screens__image" />
+      </div>
+      <div class="shopping-search">
+        <form class="shopping-search__bar">
+          <input
+            class="shopping-search__input"
+            name="search"
+            type="search"
+            placeholder="Let's Search!"
+          />
+        </form>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="shopping-recommend">
+        <div class="shopping-recommend__title">
+          <span>Recommend</span>
+        </div>
+        <div class="divider"></div>
+        <div class="shopping-recommend__row">
+          <div class="shopping-recommend__row-list">
+            <span>Apple</span>
+          </div>
+          <div class="shopping-recommend__row-list">
+            <span>Honey</span>
+          </div>
+          <div class="shopping-recommend__row-list">
+            <span>Stick</span>
+          </div>
+          <div class="shopping-recommend__row-list">
+            <span>Cookie</span>
+          </div>
+        </div>
+      </div>
+      <div class="discount-screen">
+        <div class="discount-screen__header">
+          <span>Discount</span>
+          <div>
+            <span>More</span>
+            <i class="fas fa-chevron fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+        <div class="discount-screen__row">
+          <div class="discount-screen__image-box">
+            <div class="discount-screen__image-pyxis">
+              <img src="images/banana.png" class="discount-screen__image" />
+              <span class="discount-screen__item">Banana</span>
+              <span class="discount-screen__before">$10</span>
+              <span class="discount-screen__after">$5</span>
+            </div>
+            <div class="discount-screen__image-pyxis">
+              <img src="images/watermelon.png" class="discount-screen__image" />
+              <span>Watermelon</span>
+              <span class="discount-screen__before">$55</span>
+              <span class="discount-screen__after">$45</span>
+            </div>
+          </div>
+        </div>
+        <div class="discount-screen__row">
+          <div class="discount-screen__image-box">
+            <div class="discount-screen__image-pyxis">
+              <img src="images/mango.png" class="discount-screen__image" />
+              <span>Mango</span>
+              <span class="discount-screen__before">$25</span>
+              <span class="discount-screen__after">$15</span>
+            </div>
+            <div class="discount-screen__image-pyxis">
+              <img src="images/cherries.jpg" class="discount-screen__image" />
+              <span>Cherry</span>
+              <span class="discount-screen__before">$37</span>
+              <span class="discount-screen__after">$19</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge ding">4</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="shopping.html"
+            ><i class="fas fa-shopping-bag fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot ding"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+    <script
+      src="http://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+@keyframes dingdong {
+  0% {
+    transform: translatey(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.ding {
+  will-change: transform;
+  animation: dingdong 1.5s ease-in-out infinite;
+}

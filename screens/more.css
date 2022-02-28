@@ -1,0 +1,29 @@
+.more-icons__row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.more-icons__row:last-child {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.more-icons__icon {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.more-icons__icon i {
+  font-size: 35px;
+}
+
+.more-icons__icon span {
+  margin-top: 18px;
+}

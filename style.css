@@ -1,0 +1,40 @@
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav.css";
+@import "components/badge.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/discount-screen.css";
+@import "components/forecast.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+/* Base */
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+/* 550x630 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--green);
+  font-family: "Comfortaa", cursive;
+}
+
+input {
+  font-family: inherit;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}

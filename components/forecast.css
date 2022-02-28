@@ -1,0 +1,43 @@
+@keyframes weatherspin {
+  from {
+    transform: rotatey(0);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}
+
+.forecast-header {
+  border-top: var(--main-border);
+  margin-top: 35px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.forecast__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.forecast__image i {
+  animation: weatherspin 1s ease-in-out infinite;
+}
+
+.forecast__image span {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  width: 100px;
+}

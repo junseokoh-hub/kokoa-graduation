@@ -1,0 +1,43 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.new {
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 8px;
+  margin-left: 10px;
+}
+
+.settings__setting:nth-child(4) {
+  padding-top: 50px;
+}
+.settings__setting:last-child .settings__setting-column:first-child {
+  opacity: 1;
+}
